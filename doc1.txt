@@ -1,0 +1,12 @@
+Title: Clinical Summary of Pneumonia Cases
+
+Pneumonia is an infection that inflames the air sacs in one or both lungs. The most common symptoms include cough with phlegm or pus, fever, chills, and difficulty breathing. Older adults and people with weakened immune systems are at higher risk.
+
+Common bacterial agents include Streptococcus pneumoniae and Haemophilus influenzae. Diagnosis is usually confirmed by chest X-ray and clinical findings.
+
+Treatment:
+- Antibiotic therapy based on likely organisms and local resistance patterns.
+- Supportive care: oxygen therapy, hydration, and rest.
+- Follow-up imaging if symptoms do not improve within 48–72 hours.
+
+Prevention strategies include vaccination against influenza and pneumococcus.

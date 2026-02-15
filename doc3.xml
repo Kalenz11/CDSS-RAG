@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3">
+    <title>Patient Summary – Respiratory Infection</title>
+    <recordTarget>
+        <patientRole>
+            <id extension="123456789"/>
+            <patient>
+                <name>
+                    <given>Jane</given>
+                    <family>Smith</family>
+                </name>
+            </patient>
+            </patientRole>
+    </recordTarget>
+    <effectiveTime value="20260205"/>
+    <component>
+        <structuredBody>
+            <component>
+                <section>
+                    <title>Problem List</title>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <code code="RESPINF" displayName="Respiratory Infection"/>
+                            <text>Acute respiratory infection with cough and fever</text>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <title>Medications</title>
+                    <entry>
+                        <substanceAdministration classCode="SBADM" moodCode="EVN">
+                            <consumable>
+                                <manufacturedProduct>
+                                    <manufacturedMaterial>
+                                        <code code="AMOX500" displayName="Amoxicillin 500mg"/>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <doseQuantity value="500mg"/>
+                        </substanceAdministration>
+                    </entry>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>
